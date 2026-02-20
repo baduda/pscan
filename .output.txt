@@ -1,0 +1,545 @@
+fatal: bad revision 'HEAD'
+/Users/oleg_sotnichenko/IdeaProjects/pscan/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2026-02-20 16:56:17,297 [INFO] Checking historical data...
+Checking 598 symbols...
+[OK] 1INCH/USDT exists since 2021
+[OK] AAVE/USDT exists since 2021
+[OK] ADA/USDT exists since 2021
+[OK] AION/USDT exists since 2021
+[OK] AKRO/USDT exists since 2021
+[OK] ALGO/USDT exists since 2021
+[OK] ALPHA/USDT exists since 2021
+[OK] ANKR/USDT exists since 2021
+[OK] ANT/USDT exists since 2021
+[OK] ARDR/USDT exists since 2021
+[OK] ARPA/USDT exists since 2021
+[OK] ASR/USDT exists since 2021
+[OK] ATM/USDT exists since 2021
+[OK] ATOM/USDT exists since 2021
+[OK] AUD/USDT exists since 2021
+[OK] AUDIO/USDT exists since 2021
+[OK] AVA/USDT exists since 2021
+[OK] AVAX/USDT exists since 2021
+[OK] AXS/USDT exists since 2021
+[OK] BAL/USDT exists since 2021
+[OK] BAND/USDT exists since 2021
+[OK] BAT/USDT exists since 2021
+[OK] BCC/USDT exists since 2021
+[OK] BCH/USDT exists since 2021
+[OK] BCHABC/USDT exists since 2021
+[OK] BEAM/USDT exists since 2021
+[OK] BEL/USDT exists since 2021
+[OK] BKRW/USDT exists since 2021
+[OK] BLZ/USDT exists since 2021
+[OK] BNB/USDT exists since 2021
+[OK] BNT/USDT exists since 2021
+[OK] BSV/USDT exists since 2021
+[OK] BTC/USDT exists since 2021
+[OK] BTS/USDT exists since 2021
+[OK] BTT/USDT exists since 2021
+[OK] BUSD/USDT exists since 2021
+[OK] BZRX/USDT exists since 2021
+[OK] CELR/USDT exists since 2021
+[OK] CHR/USDT exists since 2021
+[OK] CHZ/USDT exists since 2021
+[OK] COCOS/USDT exists since 2021
+[OK] COMP/USDT exists since 2021
+[OK] COS/USDT exists since 2021
+[OK] COTI/USDT exists since 2021
+[OK] CRV/USDT exists since 2021
+[OK] CTK/USDT exists since 2021
+[OK] CTSI/USDT exists since 2021
+[OK] CTXC/USDT exists since 2021
+[OK] CVC/USDT exists since 2021
+[OK] DAI/USDT exists since 2021
+[OK] DASH/USDT exists since 2021
+[OK] DATA/USDT exists since 2021
+[OK] DCR/USDT exists since 2021
+[OK] DENT/USDT exists since 2021
+[OK] DGB/USDT exists since 2021
+[OK] DIA/USDT exists since 2021
+[OK] DNT/USDT exists since 2021
+[OK] DOCK/USDT exists since 2021
+[OK] DOGE/USDT exists since 2021
+[OK] DOT/USDT exists since 2021
+[OK] DREP/USDT exists since 2021
+[OK] DUSK/USDT exists since 2021
+[OK] EGLD/USDT exists since 2021
+[OK] ENJ/USDT exists since 2021
+[OK] EOS/USDT exists since 2021
+[OK] ERD/USDT exists since 2021
+[OK] ETC/USDT exists since 2021
+[OK] ETH/USDT exists since 2021
+[OK] EUR/USDT exists since 2021
+[OK] FET/USDT exists since 2021
+[OK] FIL/USDT exists since 2021
+[OK] FIO/USDT exists since 2021
+[OK] FLM/USDT exists since 2021
+[OK] FTM/USDT exists since 2021
+[OK] FTT/USDT exists since 2021
+[OK] FUN/USDT exists since 2021
+[OK] GBP/USDT exists since 2021
+[OK] GRT/USDT exists since 2021
+[OK] GTO/USDT exists since 2021
+[OK] GXS/USDT exists since 2021
+[OK] HARD/USDT exists since 2021
+[OK] HBAR/USDT exists since 2021
+[OK] HC/USDT exists since 2021
+[OK] HIVE/USDT exists since 2021
+[OK] HNT/USDT exists since 2021
+[OK] HOT/USDT exists since 2021
+[OK] ICX/USDT exists since 2021
+[OK] INJ/USDT exists since 2021
+[OK] IOST/USDT exists since 2021
+[OK] IOTA/USDT exists since 2021
+[OK] IOTX/USDT exists since 2021
+[OK] IRIS/USDT exists since 2021
+[OK] JST/USDT exists since 2021
+[OK] JUV/USDT exists since 2021
+[OK] KAVA/USDT exists since 2021
+[OK] KEY/USDT exists since 2021
+[OK] KMD/USDT exists since 2021
+[OK] KNC/USDT exists since 2021
+[OK] KSM/USDT exists since 2021
+[OK] LEND/USDT exists since 2021
+[OK] LINK/USDT exists since 2021
+[OK] LRC/USDT exists since 2021
+[OK] LSK/USDT exists since 2021
+[OK] LTC/USDT exists since 2021
+[OK] LTO/USDT exists since 2021
+[OK] LUNA/USDT exists since 2021
+[OK] MANA/USDT exists since 2021
+[OK] MATIC/USDT exists since 2021
+[OK] MBL/USDT exists since 2021
+[OK] MCO/USDT exists since 2021
+[OK] MDT/USDT exists since 2021
+[OK] MFT/USDT exists since 2021
+[OK] MITH/USDT exists since 2021
+[OK] MKR/USDT exists since 2021
+[OK] MTL/USDT exists since 2021
+[OK] NANO/USDT exists since 2021
+[OK] NBS/USDT exists since 2021
+[OK] NEAR/USDT exists since 2021
+[OK] NEO/USDT exists since 2021
+[OK] NKN/USDT exists since 2021
+[OK] NMR/USDT exists since 2021
+[OK] NPXS/USDT exists since 2021
+[OK] NULS/USDT exists since 2021
+[OK] OCEAN/USDT exists since 2021
+[OK] OG/USDT exists since 2021
+[OK] OGN/USDT exists since 2021
+[OK] OMG/USDT exists since 2021
+[OK] ONE/USDT exists since 2021
+[OK] ONG/USDT exists since 2021
+[OK] ONT/USDT exists since 2021
+[OK] ORN/USDT exists since 2021
+[OK] OXT/USDT exists since 2021
+[OK] PAX/USDT exists since 2021
+[OK] PAXG/USDT exists since 2021
+[OK] PERL/USDT exists since 2021
+[OK] PNT/USDT exists since 2021
+[OK] PSG/USDT exists since 2021
+[OK] QTUM/USDT exists since 2021
+[OK] REEF/USDT exists since 2021
+[OK] REN/USDT exists since 2021
+[OK] REP/USDT exists since 2021
+[OK] RLC/USDT exists since 2021
+[OK] ROSE/USDT exists since 2021
+[OK] RSR/USDT exists since 2021
+[OK] RUNE/USDT exists since 2021
+[OK] RVN/USDT exists since 2021
+[OK] SAND/USDT exists since 2021
+[OK] SC/USDT exists since 2021
+[OK] SKL/USDT exists since 2021
+[OK] SNX/USDT exists since 2021
+[OK] SOL/USDT exists since 2021
+[OK] SRM/USDT exists since 2021
+[OK] STMX/USDT exists since 2021
+[OK] STORJ/USDT exists since 2021
+[OK] STORM/USDT exists since 2021
+[OK] STPT/USDT exists since 2021
+[OK] STRAT/USDT exists since 2021
+[OK] STRAX/USDT exists since 2021
+[OK] STX/USDT exists since 2021
+[OK] SUN/USDT exists since 2021
+[OK] SUSD/USDT exists since 2021
+[OK] SUSHI/USDT exists since 2021
+[OK] SXP/USDT exists since 2021
+[OK] TCT/USDT exists since 2021
+[OK] TFUEL/USDT exists since 2021
+[OK] THETA/USDT exists since 2021
+[OK] TOMO/USDT exists since 2021
+[OK] TRB/USDT exists since 2021
+[OK] TROY/USDT exists since 2021
+[OK] TRX/USDT exists since 2021
+[OK] TUSD/USDT exists since 2021
+[OK] UMA/USDT exists since 2021
+[OK] UNFI/USDT exists since 2021
+[OK] UNI/USDT exists since 2021
+[OK] USDC/USDT exists since 2021
+[OK] USDS/USDT exists since 2021
+[OK] USDSB/USDT exists since 2021
+[OK] UTK/USDT exists since 2021
+[OK] VEN/USDT exists since 2021
+[OK] VET/USDT exists since 2021
+[OK] VITE/USDT exists since 2021
+[OK] VTHO/USDT exists since 2021
+[OK] WAN/USDT exists since 2021
+[OK] WAVES/USDT exists since 2021
+[OK] WIN/USDT exists since 2021
+[OK] WING/USDT exists since 2021
+[OK] WNXM/USDT exists since 2021
+[OK] WRX/USDT exists since 2021
+[OK] WTC/USDT exists since 2021
+[OK] XEM/USDT exists since 2021
+[OK] XLM/USDT exists since 2021
+[OK] XMR/USDT exists since 2021
+[OK] XRP/USDT exists since 2021
+[OK] XTZ/USDT exists since 2021
+[OK] XVS/USDT exists since 2021
+[OK] XZC/USDT exists since 2021
+[OK] YFI/USDT exists since 2021
+[OK] YFII/USDT exists since 2021
+[OK] ZEC/USDT exists since 2021
+[OK] ZEN/USDT exists since 2021
+[OK] ZIL/USDT exists since 2021
+[OK] ZRX/USDT exists since 2021
+2026-02-20 16:59:32,724 [INFO] Limiting to first 50 symbols for faster optimization (found 202)
+2026-02-20 16:59:32,724 [INFO] Found 50 candidate symbols existing since 2021-01-01
+Loaded existing data with 114 assets.
+Data for 1INCH/USDT already exists. Skipping...
+Data for AAVE/USDT already exists. Skipping...
+Data for ADA/USDT already exists. Skipping...
+Data for AION/USDT already exists. Skipping...
+Data for AKRO/USDT already exists. Skipping...
+Data for ALGO/USDT already exists. Skipping...
+Data for ALPHA/USDT already exists. Skipping...
+Data for ANKR/USDT already exists. Skipping...
+Data for ANT/USDT already exists. Skipping...
+Data for ARDR/USDT already exists. Skipping...
+Data for ARPA/USDT already exists. Skipping...
+Data for ASR/USDT already exists. Skipping...
+Data for ATM/USDT already exists. Skipping...
+Data for ATOM/USDT already exists. Skipping...
+Data for AUD/USDT already exists. Skipping...
+Data for AUDIO/USDT already exists. Skipping...
+Data for AVA/USDT already exists. Skipping...
+Data for AVAX/USDT already exists. Skipping...
+Data for AXS/USDT already exists. Skipping...
+Data for BAL/USDT already exists. Skipping...
+Data for BAND/USDT already exists. Skipping...
+Data for BAT/USDT already exists. Skipping...
+Fetching data for BCC/USDT...
+No data returned for BCC/USDT.
+Data for BCH/USDT already exists. Skipping...
+Fetching data for BCHABC/USDT...
+No data returned for BCHABC/USDT.
+Data for BEAM/USDT already exists. Skipping...
+Data for BEL/USDT already exists. Skipping...
+Fetching data for BKRW/USDT...
+No data returned for BKRW/USDT.
+Data for BLZ/USDT already exists. Skipping...
+Data for BNB/USDT already exists. Skipping...
+Data for BNT/USDT already exists. Skipping...
+Fetching data for BSV/USDT...
+No data returned for BSV/USDT.
+Data for BTC/USDT already exists. Skipping...
+Data for BTS/USDT already exists. Skipping...
+Data for BTT/USDT already exists. Skipping...
+Data for BUSD/USDT already exists. Skipping...
+Data for BZRX/USDT already exists. Skipping...
+Data for CELR/USDT already exists. Skipping...
+Data for CHR/USDT already exists. Skipping...
+Data for CHZ/USDT already exists. Skipping...
+Data for COCOS/USDT already exists. Skipping...
+Data for COMP/USDT already exists. Skipping...
+Data for COS/USDT already exists. Skipping...
+Data for COTI/USDT already exists. Skipping...
+Data for CRV/USDT already exists. Skipping...
+Data for CTK/USDT already exists. Skipping...
+Data for CTSI/USDT already exists. Skipping...
+Data for CTXC/USDT already exists. Skipping...
+Data for CVC/USDT already exists. Skipping...
+Fetching data for DAI/USDT...
+No data returned for DAI/USDT.
+2026-02-20 16:59:47,869 [INFO] Using 114 symbols for optimization
+2026-02-20 16:59:47,871 [INFO] Data period: 2021-01-04 00:00:00 to 2026-02-16 00:00:00
+2026-02-20 16:59:47,871 [INFO] Number of assets: 114
+2026-02-20 16:59:47,871 [INFO] Starting Genetic Algorithm Optimization...
+Generation 1: Best Fitness = -1.0280
+Generation 2: Best Fitness = -1.0280
+Generation 3: Best Fitness = -1.0008
+Generation 4: Best Fitness = -1.0002
+Generation 5: Best Fitness = -0.9299
+Generation 6: Best Fitness = -0.9251
+Generation 7: Best Fitness = -0.8854
+Generation 8: Best Fitness = -0.8854
+Generation 9: Best Fitness = -0.8854
+Generation 10: Best Fitness = -0.8854
+Generation 11: Best Fitness = -0.8854
+Generation 12: Best Fitness = -0.8754
+Generation 13: Best Fitness = -0.8592
+Generation 14: Best Fitness = -0.8592
+Generation 15: Best Fitness = -0.8335
+Generation 16: Best Fitness = -0.8335
+Generation 17: Best Fitness = -0.8309
+Generation 18: Best Fitness = -0.8309
+Generation 19: Best Fitness = -0.8309
+Generation 20: Best Fitness = -0.8309
+Generation 21: Best Fitness = -0.8309
+Generation 22: Best Fitness = -0.8271
+Generation 23: Best Fitness = -0.8215
+Generation 24: Best Fitness = -0.7980
+Generation 25: Best Fitness = -0.7980
+Generation 26: Best Fitness = -0.7980
+Generation 27: Best Fitness = -0.7980
+Generation 28: Best Fitness = -0.7980
+Generation 29: Best Fitness = -0.7980
+Generation 30: Best Fitness = -0.7980
+Generation 31: Best Fitness = -0.7980
+Generation 32: Best Fitness = -0.7980
+Generation 33: Best Fitness = -0.7980
+Generation 34: Best Fitness = -0.7886
+Generation 35: Best Fitness = -0.7886
+Generation 36: Best Fitness = -0.7886
+Generation 37: Best Fitness = -0.7886
+Generation 38: Best Fitness = -0.7886
+Generation 39: Best Fitness = -0.7886
+Generation 40: Best Fitness = -0.7886
+Generation 41: Best Fitness = -0.7815
+Generation 42: Best Fitness = -0.7815
+Generation 43: Best Fitness = -0.7815
+Generation 44: Best Fitness = -0.7815
+Generation 45: Best Fitness = -0.7815
+Generation 46: Best Fitness = -0.7815
+Generation 47: Best Fitness = -0.7815
+Generation 48: Best Fitness = -0.7815
+Generation 49: Best Fitness = -0.7815
+Generation 50: Best Fitness = -0.7815
+2026-02-20 16:59:50,052 [INFO]
+==============================
+2026-02-20 16:59:50,052 [INFO] BEST PORTFOLIO WEIGHTS
+2026-02-20 16:59:50,052 [INFO] ==============================
+2026-02-20 16:59:50,052 [INFO] 1INCH/USDT: 0.14%
+2026-02-20 16:59:50,052 [INFO] AAVE/USDT: 1.41%
+2026-02-20 16:59:50,052 [INFO] ADA/USDT: 1.79%
+2026-02-20 16:59:50,052 [INFO] AION/USDT: 1.60%
+2026-02-20 16:59:50,052 [INFO] AKRO/USDT: 0.85%
+2026-02-20 16:59:50,052 [INFO] ALGO/USDT: 0.59%
+2026-02-20 16:59:50,052 [INFO] ALPHA/USDT: 1.89%
+2026-02-20 16:59:50,052 [INFO] ANKR/USDT: 0.14%
+2026-02-20 16:59:50,052 [INFO] ANT/USDT: 0.17%
+2026-02-20 16:59:50,052 [INFO] ARDR/USDT: 0.30%
+2026-02-20 16:59:50,052 [INFO] ARPA/USDT: 0.55%
+2026-02-20 16:59:50,052 [INFO] ASR/USDT: 0.34%
+2026-02-20 16:59:50,052 [INFO] ATM/USDT: 1.96%
+2026-02-20 16:59:50,052 [INFO] AUD/USDT: 0.45%
+2026-02-20 16:59:50,052 [INFO] AUDIO/USDT: 0.25%
+2026-02-20 16:59:50,052 [INFO] AVA/USDT: 1.18%
+2026-02-20 16:59:50,052 [INFO] AVAX/USDT: 1.59%
+2026-02-20 16:59:50,052 [INFO] AXS/USDT: 1.87%
+2026-02-20 16:59:50,052 [INFO] BAL/USDT: 0.34%
+2026-02-20 16:59:50,052 [INFO] BAND/USDT: 1.82%
+2026-02-20 16:59:50,052 [INFO] BAT/USDT: 1.83%
+2026-02-20 16:59:50,052 [INFO] BCH/USDT: 2.01%
+2026-02-20 16:59:50,052 [INFO] BEL/USDT: 1.44%
+2026-02-20 16:59:50,052 [INFO] BLZ/USDT: 1.08%
+2026-02-20 16:59:50,052 [INFO] BNB/USDT: 2.05%
+2026-02-20 16:59:50,052 [INFO] BNT/USDT: 1.71%
+2026-02-20 16:59:50,052 [INFO] BTC/USDT: 2.04%
+2026-02-20 16:59:50,052 [INFO] BTS/USDT: 0.78%
+2026-02-20 16:59:50,052 [INFO] BTT/USDT: 1.04%
+2026-02-20 16:59:50,052 [INFO] BUSD/USDT: 1.12%
+2026-02-20 16:59:50,052 [INFO] BZRX/USDT: 0.76%
+2026-02-20 16:59:50,052 [INFO] CHZ/USDT: 2.02%
+2026-02-20 16:59:50,053 [INFO] COCOS/USDT: 1.17%
+2026-02-20 16:59:50,053 [INFO] COMP/USDT: 0.46%
+2026-02-20 16:59:50,053 [INFO] COS/USDT: 1.69%
+2026-02-20 16:59:50,053 [INFO] COTI/USDT: 0.66%
+2026-02-20 16:59:50,053 [INFO] CRV/USDT: 0.59%
+2026-02-20 16:59:50,053 [INFO] CTK/USDT: 0.33%
+2026-02-20 16:59:50,053 [INFO] CTSI/USDT: 0.12%
+2026-02-20 16:59:50,053 [INFO] CTXC/USDT: 1.33%
+2026-02-20 16:59:50,053 [INFO] CVC/USDT: 0.97%
+2026-02-20 16:59:50,053 [INFO] DASH/USDT: 1.83%
+2026-02-20 16:59:50,053 [INFO] DCR/USDT: 2.02%
+2026-02-20 16:59:50,053 [INFO] DENT/USDT: 0.61%
+2026-02-20 16:59:50,053 [INFO] DGB/USDT: 1.42%
+2026-02-20 16:59:50,053 [INFO] DIA/USDT: 0.90%
+2026-02-20 16:59:50,053 [INFO] DNT/USDT: 0.23%
+2026-02-20 16:59:50,053 [INFO] DOCK/USDT: 0.87%
+2026-02-20 16:59:50,053 [INFO] DOGE/USDT: 1.88%
+2026-02-20 16:59:50,053 [INFO] DOT/USDT: 0.22%
+2026-02-20 16:59:50,053 [INFO] DREP/USDT: 0.18%
+2026-02-20 16:59:50,053 [INFO] DUSK/USDT: 2.06%
+2026-02-20 16:59:50,053 [INFO] EGLD/USDT: 0.56%
+2026-02-20 16:59:50,053 [INFO] ENJ/USDT: 0.34%
+2026-02-20 16:59:50,053 [INFO] ETC/USDT: 1.00%
+2026-02-20 16:59:50,053 [INFO] ETH/USDT: 0.76%
+2026-02-20 16:59:50,053 [INFO] EUR/USDT: 1.24%
+2026-02-20 16:59:50,053 [INFO] FET/USDT: 1.32%
+2026-02-20 16:59:50,053 [INFO] FIL/USDT: 0.54%
+2026-02-20 16:59:50,053 [INFO] FIO/USDT: 0.50%
+2026-02-20 16:59:50,053 [INFO] FLM/USDT: 0.86%
+2026-02-20 16:59:50,053 [INFO] FTM/USDT: 0.27%
+2026-02-20 16:59:50,053 [INFO] FTT/USDT: 1.57%
+2026-02-20 16:59:50,053 [INFO] FUN/USDT: 0.53%
+2026-02-20 16:59:50,053 [INFO] GBP/USDT: 0.61%
+2026-02-20 16:59:50,053 [INFO] GTO/USDT: 0.63%
+2026-02-20 16:59:50,053 [INFO] GXS/USDT: 0.56%
+2026-02-20 16:59:50,053 [INFO] HBAR/USDT: 1.66%
+2026-02-20 16:59:50,053 [INFO] HNT/USDT: 1.16%
+2026-02-20 16:59:50,053 [INFO] HOT/USDT: 1.07%
+2026-02-20 16:59:50,053 [INFO] ICX/USDT: 0.79%
+2026-02-20 16:59:50,053 [INFO] INJ/USDT: 1.12%
+2026-02-20 16:59:50,053 [INFO] IOST/USDT: 1.08%
+2026-02-20 16:59:50,053 [INFO] IOTA/USDT: 0.29%
+2026-02-20 16:59:50,053 [INFO] IOTX/USDT: 0.11%
+2026-02-20 16:59:50,053 [INFO] IRIS/USDT: 0.29%
+2026-02-20 16:59:50,053 [INFO] JST/USDT: 1.52%
+2026-02-20 16:59:50,053 [INFO] JUV/USDT: 1.39%
+2026-02-20 16:59:50,053 [INFO] KAVA/USDT: 1.83%
+2026-02-20 16:59:50,053 [INFO] KEY/USDT: 1.77%
+2026-02-20 16:59:50,053 [INFO] KMD/USDT: 1.53%
+2026-02-20 16:59:50,053 [INFO] KNC/USDT: 0.74%
+2026-02-20 16:59:50,053 [INFO] LINK/USDT: 1.94%
+2026-02-20 16:59:50,053 [INFO] LRC/USDT: 0.22%
+2026-02-20 16:59:50,053 [INFO] LSK/USDT: 0.22%
+2026-02-20 16:59:50,053 [INFO] LTC/USDT: 0.85%
+2026-02-20 16:59:50,053 [INFO] LTO/USDT: 0.23%
+2026-02-20 16:59:50,053 [INFO] LUNA/USDT: 2.01%
+2026-02-20 16:59:50,053 [INFO] MANA/USDT: 0.84%
+2026-02-20 16:59:50,053 [INFO] MATIC/USDT: 1.38%
+2026-02-20 16:59:50,054 [INFO] MDT/USDT: 0.96%
+2026-02-20 16:59:50,054 [INFO] MFT/USDT: 0.31%
+2026-02-20 16:59:50,054 [INFO] MTL/USDT: 0.91%
+2026-02-20 16:59:50,054 [INFO] NANO/USDT: 1.01%
+2026-02-20 16:59:50,054 [INFO] NBS/USDT: 0.59%
+2026-02-20 16:59:50,054 [INFO] NEAR/USDT: 0.90%
+2026-02-20 16:59:50,054 [INFO] NEO/USDT: 1.39%
+2026-02-20 16:59:50,054 [INFO] NKN/USDT: 0.24%
+2026-02-20 16:59:50,054 [INFO] NMR/USDT: 0.73%
+2026-02-20 16:59:50,054 [INFO] NPXS/USDT: 0.44%
+2026-02-20 16:59:50,054 [INFO] NULS/USDT: 0.14%
+2026-02-20 16:59:50,055 [INFO]
+==============================
+2026-02-20 16:59:50,055 [INFO] PERFORMANCE METRICS
+2026-02-20 16:59:50,055 [INFO] ==============================
+2026-02-20 16:59:50,055 [INFO] Final Balance: 14292.57 USDT
+2026-02-20 16:59:50,055 [INFO] Total Invested: 23925.68 USDT
+2026-02-20 16:59:50,055 [INFO] Total ROI: -40.26%
+2026-02-20 16:59:50,055 [INFO] Max Drawdown: -94.10%
+2026-02-20 16:59:50,055 [INFO] Sharpe Ratio: 0.6690
+2026-02-20 16:59:50,055 [INFO]
+==============================
+2026-02-20 16:59:50,055 [INFO] FINAL PORTFOLIO COMPOSITION
+2026-02-20 16:59:50,055 [INFO] ==============================
+2026-02-20 16:59:50,055 [INFO] Asset        | Weight   | Amount       | Value (USDT)
+2026-02-20 16:59:50,055 [INFO] -------------------------------------------------------
+2026-02-20 16:59:50,055 [INFO] 1INCH/USDT   | 0.14%    | 92.972131    | 8.61
+2026-02-20 16:59:50,055 [INFO] AAVE/USDT    | 1.41%    | 3.115706     | 361.80
+2026-02-20 16:59:50,055 [INFO] ADA/USDT     | 1.79%    | 925.068464   | 262.81
+2026-02-20 16:59:50,055 [INFO] AION/USDT    | 1.60%    | 3019.624170  | 0.00
+2026-02-20 16:59:50,055 [INFO] AKRO/USDT    | 0.85%    | 28584.688828 | 0.00
+2026-02-20 16:59:50,055 [INFO] ALGO/USDT    | 0.59%    | 690.538759   | 61.73
+2026-02-20 16:59:50,055 [INFO] ALPHA/USDT   | 1.89%    | 4565.281569  | 0.00
+2026-02-20 16:59:50,055 [INFO] ANKR/USDT    | 0.14%    | 1594.474989  | 7.11
+2026-02-20 16:59:50,055 [INFO] ANT/USDT     | 0.17%    | 8.096806     | 0.00
+2026-02-20 16:59:50,055 [INFO] ARDR/USDT    | 0.30%    | 827.597731   | 37.00
+2026-02-20 16:59:50,055 [INFO] ARPA/USDT    | 0.55%    | 4063.098434  | 39.74
+2026-02-20 16:59:50,055 [INFO] ASR/USDT     | 0.34%    | 35.475086    | 50.20
+2026-02-20 16:59:50,055 [INFO] ATM/USDT     | 1.96%    | 216.940892   | 325.63
+2026-02-20 16:59:50,055 [INFO] AUD/USDT     | 0.45%    | 78.782876    | 0.00
+2026-02-20 16:59:50,055 [INFO] AUDIO/USDT   | 0.25%    | 506.919520   | 10.65
+2026-02-20 16:59:50,055 [INFO] AVA/USDT     | 1.18%    | 462.983791   | 98.15
+2026-02-20 16:59:50,055 [INFO] AVAX/USDT    | 1.59%    | 20.257178    | 185.15
+2026-02-20 16:59:50,055 [INFO] AXS/USDT     | 1.87%    | 116.929151   | 150.49
+2026-02-20 16:59:50,055 [INFO] BAL/USDT     | 0.34%    | 16.452461    | 0.00
+2026-02-20 16:59:50,055 [INFO] BAND/USDT    | 1.82%    | 391.602104   | 92.42
+2026-02-20 16:59:50,055 [INFO] BAT/USDT     | 1.83%    | 1949.351534  | 233.92
+2026-02-20 16:59:50,056 [INFO] BCH/USDT     | 2.01%    | 2.055240     | 1117.23
+2026-02-20 16:59:50,056 [INFO] BEL/USDT     | 1.44%    | 753.740149   | 71.76
+2026-02-20 16:59:50,056 [INFO] BLZ/USDT     | 1.08%    | 1781.511454  | 0.00
+2026-02-20 16:59:50,056 [INFO] BNB/USDT     | 2.05%    | 1.599266     | 981.73
+2026-02-20 16:59:50,056 [INFO] BNT/USDT     | 1.71%    | 683.305225   | 195.22
+2026-02-20 16:59:50,056 [INFO] BTC/USDT     | 2.04%    | 0.013369     | 899.03
+2026-02-20 16:59:50,056 [INFO] BTS/USDT     | 0.78%    | 8011.820601  | 0.00
+2026-02-20 16:59:50,056 [INFO] BTT/USDT     | 1.04%    | 30114.487152 | 0.00
+2026-02-20 16:59:50,056 [INFO] BUSD/USDT    | 1.12%    | 172.396067   | 0.00
+2026-02-20 16:59:50,056 [INFO] BZRX/USDT    | 0.76%    | 118.625069   | 0.00
+2026-02-20 16:59:50,056 [INFO] CHZ/USDT     | 2.02%    | 6949.660211  | 253.66
+2026-02-20 16:59:50,056 [INFO] COCOS/USDT   | 1.17%    | 6024.550992  | 0.00
+2026-02-20 16:59:50,056 [INFO] COMP/USDT    | 0.46%    | 2.146209     | 39.04
+2026-02-20 16:59:50,056 [INFO] COS/USDT     | 1.69%    | 84524.759240 | 87.82
+2026-02-20 16:59:50,056 [INFO] COTI/USDT    | 0.66%    | 2430.513733  | 29.41
+2026-02-20 16:59:50,056 [INFO] CRV/USDT     | 0.59%    | 231.888788   | 56.95
+2026-02-20 16:59:50,056 [INFO] CTK/USDT     | 0.33%    | 144.655488   | 33.33
+2026-02-20 16:59:50,056 [INFO] CTSI/USDT    | 0.12%    | 262.743261   | 6.67
+2026-02-20 16:59:50,056 [INFO] CTXC/USDT    | 1.33%    | 1601.053202  | 0.00
+2026-02-20 16:59:50,056 [INFO] CVC/USDT     | 0.97%    | 2017.327105  | 67.30
+2026-02-20 16:59:50,056 [INFO] DASH/USDT    | 1.83%    | 12.008335    | 400.24
+2026-02-20 16:59:50,056 [INFO] DCR/USDT     | 2.02%    | 25.057146    | 598.11
+2026-02-20 16:59:50,056 [INFO] DENT/USDT    | 0.61%    | 193515.544097 | 26.51
+2026-02-20 16:59:50,056 [INFO] DGB/USDT     | 1.42%    | 36170.281349 | 147.57
+2026-02-20 16:59:50,056 [INFO] DIA/USDT     | 0.90%    | 506.380920   | 96.36
+2026-02-20 16:59:50,056 [INFO] DNT/USDT     | 0.23%    | 246.458464   | 0.00
+2026-02-20 16:59:50,056 [INFO] DOCK/USDT    | 0.87%    | 6569.781053  | 0.00
+2026-02-20 16:59:50,056 [INFO] DOGE/USDT    | 1.88%    | 5092.445858  | 505.02
+2026-02-20 16:59:50,056 [INFO] DOT/USDT     | 0.22%    | 9.896414     | 13.20
+2026-02-20 16:59:50,056 [INFO] DREP/USDT    | 0.18%    | 398.007522   | 0.00
+2026-02-20 16:59:50,056 [INFO] DUSK/USDT    | 2.06%    | 4319.405821  | 387.02
+2026-02-20 16:59:50,056 [INFO] EGLD/USDT    | 0.56%    | 5.229831     | 23.85
+2026-02-20 16:59:50,056 [INFO] ENJ/USDT     | 0.34%    | 561.177810   | 11.21
+2026-02-20 16:59:50,056 [INFO] ETC/USDT     | 1.00%    | 12.884818    | 109.52
+2026-02-20 16:59:50,056 [INFO] ETH/USDT     | 0.76%    | 0.091652     | 179.22
+2026-02-20 16:59:50,056 [INFO] EUR/USDT     | 1.24%    | 300.082667   | 353.47
+2026-02-20 16:59:50,056 [INFO] FET/USDT     | 1.32%    | 1282.709769  | 212.93
+2026-02-20 16:59:50,056 [INFO] FIL/USDT     | 0.54%    | 31.866156    | 29.89
+2026-02-20 16:59:50,056 [INFO] FIO/USDT     | 0.50%    | 4597.489652  | 40.32
+2026-02-20 16:59:50,056 [INFO] FLM/USDT     | 0.86%    | 2909.487772  | 0.00
+2026-02-20 16:59:50,056 [INFO] FTM/USDT     | 0.27%    | 169.162855   | 0.00
+2026-02-20 16:59:50,056 [INFO] FTT/USDT     | 1.57%    | 185.429755   | 64.47
+2026-02-20 16:59:50,056 [INFO] FUN/USDT     | 0.53%    | 26293.568174 | 33.47
+2026-02-20 16:59:50,056 [INFO] GBP/USDT     | 0.61%    | 74.564310    | 0.00
+2026-02-20 16:59:50,057 [INFO] GTO/USDT     | 0.63%    | 2261.729313  | 0.00
+2026-02-20 16:59:50,057 [INFO] GXS/USDT     | 0.56%    | 50.168326    | 0.00
+2026-02-20 16:59:50,057 [INFO] HBAR/USDT    | 1.66%    | 4668.517824  | 466.71
+2026-02-20 16:59:50,057 [INFO] HNT/USDT     | 1.16%    | 11.904395    | 0.00
+2026-02-20 16:59:50,057 [INFO] HOT/USDT     | 1.07%    | 180886.896109 | 70.91
+2026-02-20 16:59:50,057 [INFO] ICX/USDT     | 0.79%    | 1098.359312  | 42.18
+2026-02-20 16:59:50,057 [INFO] INJ/USDT     | 1.12%    | 54.062108    | 183.00
+2026-02-20 16:59:50,057 [INFO] IOST/USDT    | 1.08%    | 43688.358322 | 53.08
+2026-02-20 16:59:50,057 [INFO] IOTA/USDT    | 0.29%    | 330.847745   | 23.29
+2026-02-20 16:59:50,057 [INFO] IOTX/USDT    | 0.11%    | 1146.260745  | 6.18
+2026-02-20 16:59:50,057 [INFO] IRIS/USDT    | 0.29%    | 2274.382641  | 0.00
+2026-02-20 16:59:50,057 [INFO] JST/USDT     | 1.52%    | 11869.147664 | 517.61
+2026-02-20 16:59:50,057 [INFO] JUV/USDT     | 1.39%    | 177.300765   | 110.46
+2026-02-20 16:59:50,057 [INFO] KAVA/USDT    | 1.83%    | 971.692366   | 50.14
+2026-02-20 16:59:50,057 [INFO] KEY/USDT     | 1.77%    | 64675.892205 | 0.00
+2026-02-20 16:59:50,057 [INFO] KMD/USDT     | 1.53%    | 1312.574774  | 0.00
+2026-02-20 16:59:50,057 [INFO] KNC/USDT     | 0.74%    | 322.230442   | 43.89
+2026-02-20 16:59:50,057 [INFO] LINK/USDT    | 1.94%    | 43.776946    | 383.92
+2026-02-20 16:59:50,057 [INFO] LRC/USDT     | 0.22%    | 334.477749   | 11.04
+2026-02-20 16:59:50,057 [INFO] LSK/USDT     | 0.22%    | 77.634355    | 11.33
+2026-02-20 16:59:50,057 [INFO] LTC/USDT     | 0.85%    | 2.576072     | 140.60
+2026-02-20 16:59:50,057 [INFO] LTO/USDT     | 0.23%    | 600.216641   | 0.00
+2026-02-20 16:59:50,057 [INFO] LUNA/USDT    | 2.01%    | 41573.694942 | 2677.35
+2026-02-20 16:59:50,057 [INFO] MANA/USDT    | 0.84%    | 560.894836   | 54.69
+2026-02-20 16:59:50,057 [INFO] MATIC/USDT   | 1.38%    | 533.985115   | 0.00
+2026-02-20 16:59:50,057 [INFO] MDT/USDT     | 0.96%    | 7644.258859  | 74.07
+2026-02-20 16:59:50,057 [INFO] MFT/USDT     | 0.31%    | 4563.831612  | 0.00
+2026-02-20 16:59:50,057 [INFO] MTL/USDT     | 0.91%    | 239.163950   | 66.25
+2026-02-20 16:59:50,057 [INFO] NANO/USDT    | 1.01%    | 11.864038    | 0.00
+2026-02-20 16:59:50,057 [INFO] NBS/USDT     | 0.59%    | 6713.418384  | 0.00
+2026-02-20 16:59:50,057 [INFO] NEAR/USDT    | 0.90%    | 85.991266    | 89.26
+2026-02-20 16:59:50,057 [INFO] NEO/USDT     | 1.39%    | 37.254001    | 102.26
+2026-02-20 16:59:50,057 [INFO] NKN/USDT     | 0.24%    | 1097.183350  | 0.00
+2026-02-20 16:59:50,057 [INFO] NMR/USDT     | 0.73%    | 12.265788    | 100.58
+2026-02-20 16:59:50,057 [INFO] NPXS/USDT    | 0.44%    | 6150.243269  | 0.00
+2026-02-20 16:59:50,057 [INFO] NULS/USDT    | 0.14%    | 112.634953   | 0.00
+2026-02-20 16:59:50,136 [INFO]
+Plot saved as /Users/oleg_sotnichenko/IdeaProjects/pscan/pscan/../plots/optimization_result.png
+2026-02-20 16:59:50,136 [INFO] Detailed logs saved to /Users/oleg_sotnichenko/IdeaProjects/pscan/pscan/../logs/optimization.log
+/Users/oleg_sotnichenko/IdeaProjects/pscan/pscan/main.py:135: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
