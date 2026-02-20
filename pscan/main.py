@@ -92,7 +92,7 @@ def main():
     # 3. Оптимизация
     logger.info("Starting Genetic Algorithm Optimization...")
     optimizer = GeneticOptimizer(prices_df)
-    ga_instance = optimizer.run(num_generations=100, sol_per_pop=500)
+    ga_instance = optimizer.run()
     
     # 4. Анализ результатов
     solution, fitness, idx = ga_instance.best_solution()
