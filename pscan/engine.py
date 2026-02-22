@@ -2,7 +2,9 @@ import pandas as pd
 import numpy as np
 from typing import Dict, Any, Tuple
 
+
 def backtest_dca(prices_df: pd.DataFrame, weights: np.ndarray, weekly_investment: float = 100.0) -> Dict[str, Any]:
+    weights = np.where(weights < 0, 0, weights)
     weights = weights / np.sum(weights)
 
     investment_per_asset = weekly_investment * weights

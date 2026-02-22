@@ -91,11 +91,11 @@ def main():
     
     # 3. Оптимизация
     logger.info("Starting Genetic Algorithm Optimization...")
-    optimizer = GeneticOptimizer(prices_df)
-    ga_instance = optimizer.run()
+    ga_instance = GeneticOptimizer(prices_df).run()
     
     # 4. Анализ результатов
     solution, fitness, idx = ga_instance.best_solution()
+    solution = np.where(solution < 0, 0, solution)
     best_weights = solution / np.sum(solution)
     
     logger.info("\n" + "="*30)
