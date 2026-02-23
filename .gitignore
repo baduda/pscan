@@ -9,8 +9,8 @@ env/
 
 # Data, Logs and Plots
 data/
-1/logs/
-1/plots/
+logs/
+plots/
 
 # IDEs
 .idea/

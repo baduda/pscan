@@ -33,7 +33,7 @@ def backtest_dca(prices_df: pd.DataFrame, weights: np.ndarray, weekly_investment
     # Sharpe Ratio (упрощенно для недельных данных)
     returns = portfolio_value.pct_change().dropna()
     if len(returns) > 0 and returns.std() != 0:
-        sharpe_ratio = (returns.mean() / returns.std()) * np.sqrt(52)  # 52 недели в году
+        sharpe_ratio = returns.mean() / returns.std()
     else:
         sharpe_ratio = 0
 

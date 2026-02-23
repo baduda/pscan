@@ -37,6 +37,19 @@ def main():
     end_date = datetime.now().strftime('%Y-%m-%d')
     csv_file = os.path.join(DATA_DIR, '../data/crypto_data.csv')
     
+    # Список монет для оптимизации (если None - берем все доступные)
+    # target_symbols = [
+    #     "TRX/USDT", "SOL/USDT", "XRP/USDT", "BCH/USDT",
+    #     "BNB/USDT", "BTC/USDT", "SUN/USDT", "JST/USDT", "DCR/USDT",
+    #     "HBAR/USDT", "XLM/USDT", "DOGE/USDT", "USDC/USDT",
+    #     "TUSD/USDT", "USDT/USDT", "AAVE/USDT", "ETH/USDT", "DASH/USDT",
+    #     "LINK/USDT", "OG/USDT", "DUSK/USDT"
+    # ]
+    target_symbols = None  # Раскомментируйте, чтобы использовать все монеты
+
+    excluded_symbols = ['PAXG/USDT', 'TUSD/USDT']
+
+
     # 2. Загрузка данных
     logger.info("Checking historical data...")
     
@@ -84,6 +97,26 @@ def main():
 
     # Список символов берется из итогового DataFrame
     symbols = list(prices_df.columns)
+
+    # Фильтрация по списку target_symbols, если он указан
+    if target_symbols:
+        # Оставляем только те символы, которые есть и в списке, и в данных
+        available_targets = [s for s in target_symbols if s in symbols]
+        if not available_targets:
+            logger.warning("None of the target symbols were found in the data. Using all available assets.")
+        else:
+            prices_df = prices_df[available_targets]
+            symbols = list(prices_df.columns)
+            logger.info(f"Filtered to {len(symbols)} target symbols.")
+
+    # Исключение монет из excluded_symbols
+    if excluded_symbols:
+        existing_excluded = [s for s in excluded_symbols if s in symbols]
+        if existing_excluded:
+            prices_df = prices_df.drop(columns=existing_excluded)
+            symbols = list(prices_df.columns)
+            logger.info(f"Excluded {len(existing_excluded)} symbols: {existing_excluded}")
+
     logger.info(f"Using {len(symbols)} symbols for optimization")
     
     logger.info(f"Data period: {prices_df.index[0]} to {prices_df.index[-1]}")
