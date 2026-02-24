@@ -47,7 +47,7 @@ def main():
     # ]
     target_symbols = None  # Раскомментируйте, чтобы использовать все монеты
 
-    excluded_symbols = ['PAXG/USDT', 'TUSD/USDT']
+    excluded_symbols = ['PAXG/USDT', 'TUSD/USDT', 'EUR/USDT', 'USDT/USDT', 'USDC/USDT']
 
 
     # 2. Загрузка данных
@@ -116,6 +116,14 @@ def main():
             prices_df = prices_df.drop(columns=existing_excluded)
             symbols = list(prices_df.columns)
             logger.info(f"Excluded {len(existing_excluded)} symbols: {existing_excluded}")
+
+    # Проверка количества доступных активов после всех фильтров
+    if len(symbols) < 2:
+        if len(symbols) == 0:
+            logger.error("No symbols left after filtering/exclusions. Aborting optimization.")
+        else:
+            logger.error("Only 1 symbol left after filtering/exclusions. GA requires at least 2 assets. Aborting optimization.")
+        return
 
     logger.info(f"Using {len(symbols)} symbols for optimization")
     

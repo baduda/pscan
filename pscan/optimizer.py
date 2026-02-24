@@ -25,21 +25,33 @@ class GeneticOptimizer:
         roi = result['total_roi']
         mdd = abs(result['max_drawdown'])
         sharpe = result['sharpe_ratio']
-        calmar = roi / (mdd + 0.01)
 
-        fitness = calmar + (sharpe * 0.5)
+        # Защита от NaN/inf в метриках
+        if not np.isfinite(roi):
+            roi = -1.0
+        if not np.isfinite(mdd) or mdd == 0:
+            mdd = 1.0
+        if not np.isfinite(sharpe):
+            sharpe = 0.0
+
+        calmar = roi / (mdd + 0.01)
+        fitness = sharpe
+        # fitness = calmar + (sharpe * 2)
+
+        if not np.isfinite(fitness):
+            return -1e6
 
         return float(fitness)
 
     def run(self) -> Any:
         ga_instance = pygad.GA(
             num_generations=200,
-            num_parents_mating=7,
+            num_parents_mating=5,
             fitness_func=self.fitness_func,
             sol_per_pop=self.num_assets,
             num_genes=self.num_assets,
-            mutation_percent_genes=4,
-            keep_elitism=4,
+            mutation_percent_genes=2,
+            keep_elitism=2,
             on_generation=lambda ga: print(
                 f"Generation {ga.generations_completed}: Best Fitness = {ga.best_solution()[1]:.4f}"),
             gene_type=float,
