@@ -39,16 +39,16 @@ def main():
     
     # Список монет для оптимизации (если None - берем все доступные)
     target_symbols = [
-        "LUNA/USDT", "SOL/USDT", "TRX/USDT", "BCH/USDT",
-        "XRP/USDT", "BTC/USDT", "BNB/USDT", "SUN/USDT",
-        "JST/USDT", "INJ/USDT", "FET/USDT", "HBAR/USDT", "DCR/USDT",
-        "AAVE/USDT", "DOGE/USDT", "XLM/USDT", "ETH/USDT", "DUSK/USDT",
-        "LINK/USDT", "DASH/USDT", "TRB/USDT", "OG/USDT", "ATM/USDT",
-        "ADA/USDT", "CHZ/USDT", "LTC/USDT", "STX/USDT"
+        # "SOL/USDT", "TRX/USDT", "BCH/USDT",
+        # "XRP/USDT", "BTC/USDT", "BNB/USDT", "SUN/USDT",
+        # "JST/USDT", "INJ/USDT", "FET/USDT", "HBAR/USDT", "DCR/USDT",
+        # "AAVE/USDT", "DOGE/USDT", "XLM/USDT", "ETH/USDT", "DUSK/USDT",
+        # "LINK/USDT", "DASH/USDT", "TRB/USDT", "OG/USDT", "ATM/USDT",
+        # "ADA/USDT", "CHZ/USDT", "LTC/USDT", "STX/USDT"
     ]
     # target_symbols = None  # Раскомментируйте, чтобы использовать все монеты
 
-    excluded_symbols = [] # Сбрасываем исключения, так как задан точный список
+    excluded_symbols = ["LUNA/USDT", "USDT/USDT", "PAXG/USDT", "EUR/USDT"] # Сбрасываем исключения, так как задан точный список
 
 
     # 2. Загрузка данных
@@ -157,7 +157,7 @@ def main():
     logger.info(f"Total Invested: {final_result['total_invested']:.2f} USDT")
     logger.info(f"Total ROI: {final_result['total_roi']:.2%}")
     logger.info(f"Max Drawdown: {final_result['max_drawdown']:.2%}")
-    logger.info(f"Sharpe Ratio: {final_result['sharpe_ratio']:.4f}")
+    logger.info(f"Sortino Ratio: {final_result['sortino_ratio']:.4f}")
 
     logger.info("\n" + "="*30)
     logger.info("FINAL PORTFOLIO COMPOSITION")

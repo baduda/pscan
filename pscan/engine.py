@@ -30,12 +30,13 @@ def backtest_dca(prices_df: pd.DataFrame, weights: np.ndarray, weekly_investment
     drawdown = (portfolio_value - peak) / peak
     max_drawdown = drawdown.min()
 
-    # Sharpe Ratio (упрощенно для недельных данных)
+    # Sortino Ratio (weekly data)
     returns = portfolio_value.pct_change().dropna()
-    if len(returns) > 0 and returns.std() != 0:
-        sharpe_ratio = returns.mean() / returns.std()
+    downside_returns = returns[returns < 0]
+    if len(returns) > 0 and len(downside_returns) > 0 and downside_returns.std() != 0:
+        sortino_ratio = returns.mean() / downside_returns.std()
     else:
-        sharpe_ratio = 0
+        sortino_ratio = 0
 
     return {
         'portfolio_value': portfolio_value,
@@ -43,7 +44,7 @@ def backtest_dca(prices_df: pd.DataFrame, weights: np.ndarray, weekly_investment
         'total_invested': total_invested_final,
         'total_roi': total_roi,
         'max_drawdown': max_drawdown,
-        'sharpe_ratio': sharpe_ratio,
+        'sortino_ratio': sortino_ratio,
         'accumulated_shares': accumulated_shares.iloc[-1], # Итоговое количество монет
         'prices_last': prices_df.iloc[-1].fillna(0) # Последние цены для информативности
     }
