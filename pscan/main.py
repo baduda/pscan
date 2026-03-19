@@ -5,7 +5,7 @@ from datetime import datetime
 import logging
 import os
 from pscan.data_loader import load_data, get_survivors
-from pscan.optimizer import GeneticOptimizer
+from pscan.optimizer import GeneticOptimizer, CMAOptimizer, _normalize_weights
 from pscan.engine import backtest_dca
 
 # Настройка путей
@@ -31,6 +31,11 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+#cma = 0.5420
+#ga = 0.9739
+OPTIMIZER = 'cma'  # 'ga' | 'cma'
+
+
 def main():
     # 1. Параметры
     start_date = '2021-01-01'
@@ -48,7 +53,7 @@ def main():
     ]
     # target_symbols = None  # Раскомментируйте, чтобы использовать все монеты
 
-    excluded_symbols = ["LUNA/USDT", "USDT/USDT", "PAXG/USDT", "EUR/USDT"] # Сбрасываем исключения, так как задан точный список
+    excluded_symbols = ["TUSD/USDT", "USDC/USDT"] # Сбрасываем исключения, так как задан точный список
 
 
     # 2. Загрузка данных
@@ -132,13 +137,19 @@ def main():
     logger.info(f"Number of assets: {len(prices_df.columns)}")
     
     # 3. Оптимизация
-    logger.info("Starting Genetic Algorithm Optimization...")
-    ga_instance = GeneticOptimizer(prices_df).run()
+    logger.info(f"Starting {'CMA-ES' if OPTIMIZER == 'cma' else 'Genetic Algorithm'} Optimization...")
+    if OPTIMIZER == 'cma':
+        optimizer = CMAOptimizer(prices_df)
+    else:
+        optimizer = GeneticOptimizer(prices_df)
+    ga_instance = optimizer.run()
     
     # 4. Анализ результатов
     solution, fitness, idx = ga_instance.best_solution()
-    solution = np.where(solution < 0, 0, solution)
-    best_weights = solution / np.sum(solution)
+    best_weights = _normalize_weights(solution, min_weight=0.03)
+    if best_weights is None:
+        logger.error("Best solution has no valid weights. Aborting.")
+        return
     
     logger.info("\n" + "="*30)
     logger.info("BEST PORTFOLIO WEIGHTS")
