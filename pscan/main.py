@@ -38,16 +38,17 @@ def main():
     csv_file = os.path.join(DATA_DIR, '../data/crypto_data.csv')
     
     # Список монет для оптимизации (если None - берем все доступные)
-    # target_symbols = [
-    #     "TRX/USDT", "SOL/USDT", "XRP/USDT", "BCH/USDT",
-    #     "BNB/USDT", "BTC/USDT", "SUN/USDT", "JST/USDT", "DCR/USDT",
-    #     "HBAR/USDT", "XLM/USDT", "DOGE/USDT", "USDC/USDT",
-    #     "TUSD/USDT", "USDT/USDT", "AAVE/USDT", "ETH/USDT", "DASH/USDT",
-    #     "LINK/USDT", "OG/USDT", "DUSK/USDT"
-    # ]
-    target_symbols = None  # Раскомментируйте, чтобы использовать все монеты
+    target_symbols = [
+        "LUNA/USDT", "SOL/USDT", "TRX/USDT", "BCH/USDT",
+        "XRP/USDT", "BTC/USDT", "BNB/USDT", "SUN/USDT",
+        "JST/USDT", "INJ/USDT", "FET/USDT", "HBAR/USDT", "DCR/USDT",
+        "AAVE/USDT", "DOGE/USDT", "XLM/USDT", "ETH/USDT", "DUSK/USDT",
+        "LINK/USDT", "DASH/USDT", "TRB/USDT", "OG/USDT", "ATM/USDT",
+        "ADA/USDT", "CHZ/USDT", "LTC/USDT", "STX/USDT"
+    ]
+    # target_symbols = None  # Раскомментируйте, чтобы использовать все монеты
 
-    excluded_symbols = ['PAXG/USDT', 'TUSD/USDT', 'EUR/USDT', 'USDT/USDT', 'USDC/USDT']
+    excluded_symbols = [] # Сбрасываем исключения, так как задан точный список
 
 
     # 2. Загрузка данных

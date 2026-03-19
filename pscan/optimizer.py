@@ -45,12 +45,12 @@ class GeneticOptimizer:
 
     def run(self) -> Any:
         ga_instance = pygad.GA(
-            num_generations=200,
-            num_parents_mating=5,
+            num_generations=300,
+            num_parents_mating=6,
             fitness_func=self.fitness_func,
-            sol_per_pop=self.num_assets,
+            sol_per_pop=10*self.num_assets,
             num_genes=self.num_assets,
-            mutation_percent_genes=2,
+            mutation_percent_genes=4,
             keep_elitism=2,
             on_generation=lambda ga: print(
                 f"Generation {ga.generations_completed}: Best Fitness = {ga.best_solution()[1]:.4f}"),
